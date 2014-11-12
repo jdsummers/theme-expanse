@@ -141,7 +141,7 @@
                   {% if post.author %}
                   <span class="post-author-name">{{ post.author.name }}</span>
                   {% endif %}
-                  <span class="post-date">Posted {{ post.created_at|format_date }}</span>
+                  <span class="post-date"> {{ post.created_at|format_date }}</span>
                 </p>
               </a>
               <div class="dots"><span></span><span></span><span></span></div>
