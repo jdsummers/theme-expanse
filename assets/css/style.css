@@ -243,7 +243,7 @@ header .spinner {
   border-radius: 100%;
 }
 header .container {
-  padding: 50px 0 50px 0;
+  padding: 1700px 0 50px 0;
 }
 header .container:after {
   visibility: hidden;
@@ -268,7 +268,7 @@ header h1 {
   font-family: 'Roboto';
   font-weight: 700;
   text-transform: uppercase;
-  font-size: 3rem;
+  font-size: 4rem;
   color: #ffffff;
   width: 100%;
   margin: 0;
