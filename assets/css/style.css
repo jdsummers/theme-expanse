@@ -270,11 +270,10 @@ header h1 {
   text-transform: uppercase;
   font-size: 1.75rem;
   color: #ffffff;
-  float: right;
-  width: 50%;
+  width: 100%;
   margin: 0;
   padding: 0;
-  line-height: 1.75rem;
+  line-height: 2rem;
 }
 header h1 a {
   color: #ffffff;
