@@ -268,13 +268,14 @@ header h1 {
   font-family: 'Roboto';
   font-weight: 700;
   text-transform: uppercase;
-  font-size: 1.75rem;
+  font-size: 3rem;
   color: #ffffff;
   width: 100%;
   margin: 0;
   padding: 0;
-  line-height: 4rem;
+  line-height: 3rem;
   text-align:center;
+  letter-spacing:.1em;
 }
 header h1 a {
   color: #ffffff;
