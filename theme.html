@@ -43,26 +43,8 @@
 
     {% else %}
     <header{% if is_post %} class="short"{% endif %}>
-      <div class="bg"></div>
-      <div class="spinner"></div>
-      <div class="shadow top"></div>
-      <div class="overlay"></div>
-      <img src="{{ assets('images/rainbow-bg.png') }}" class="rainbow" />
-      <div class="container wide">
-        <h1><a href="{{ site.base_url }}">{{ site.name }}</a></h1>
-        {% if pages %}
-        <ul class="cover-nav">
-          <li><a href="{{ site.base_url }}">Blog</a></li>
-            {% for page in pages %}
-            <li><a href="{{ page.permalink }}" class="{{ set_active(page.permalink) }}">{{ page.title }}</a></li>
-            {% endfor %}
-        </ul>
-        {% endif %}
-      </div>
-    </header>
-
-    <div class="container content">
-<!-- added nav -->
+      <div class="bg">
+      	<!-- added nav -->
 <div class="nav-collapse collapse">
   <ul class="nav pull-right">
     <li><a href="/">Blog</a></li>
@@ -83,6 +65,26 @@
 </div>
 
 <!-- end added nav -->
+      </div>
+      <div class="spinner"></div>
+      <div class="shadow top"></div>
+      <div class="overlay"></div>
+      <img src="{{ assets('images/rainbow-bg.png') }}" class="rainbow" />
+      <div class="container wide">
+        <h1><a href="{{ site.base_url }}">{{ site.name }}</a></h1>
+        {% if pages %}
+        <ul class="cover-nav">
+          <li><a href="{{ site.base_url }}">Blog</a></li>
+            {% for page in pages %}
+            <li><a href="{{ page.permalink }}" class="{{ set_active(page.permalink) }}">{{ page.title }}</a></li>
+            {% endfor %}
+        </ul>
+        {% endif %}
+      </div>
+    </header>
+
+    <div class="container content">
+
       <div class="bio">
         <a class="user-avatar">
           <img src="{{ site.avatar }}" />
