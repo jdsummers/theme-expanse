@@ -42,11 +42,11 @@
     {{ login_form }}
 
     {% else %}
-    
-    <header{% if is_post %} class="short"{% endif %}>
     <div class="menu">
     	<a href="/tag/sermons" class="{{ set_active('/tag/sermons') }}">Sermons</a>
     </div>
+    <header{% if is_post %} class="short"{% endif %}>
+    
       <div class="bg"></div>
       <div class="spinner"></div>
       <div class="shadow top"></div>
